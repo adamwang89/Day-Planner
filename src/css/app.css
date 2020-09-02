@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+.main-div{
+    padding: 50px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.header-div h1{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.header-div h2{
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-div{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.button-div button{
+    height: 40px;
+    width: 200px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.body-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    grid-template-rows: auto;
+    text-align: center;
+}
